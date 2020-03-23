@@ -1,0 +1,22 @@
+2020-03-22 16:26:23,078 INFO [root][__init__.py(<module>:4)]-测试日志能否打印2
+2020-03-22 16:26:23,781 INFO [root][login_params.py(test01_login:22)]-参数化登陆的结果为{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '00fde9b1-3b45-4c55-bc17-ce400d9418b8'}
+2020-03-22 16:26:23,900 INFO [root][login_params.py(test01_login:22)]-参数化登陆的结果为{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-22 16:26:23,997 INFO [root][login_params.py(test01_login:22)]-参数化登陆的结果为{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-22 16:26:24,099 INFO [root][login_params.py(test01_login:22)]-参数化登陆的结果为{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-22 16:26:24,196 INFO [root][login_params.py(test01_login:22)]-参数化登陆的结果为{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-22 16:26:24,400 INFO [root][employee_params.py(test01_login_success:24)]-员工模块登录结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '3e1a4e99-a73e-44b5-9588-b0b8de174377'}
+2020-03-22 16:26:24,400 INFO [root][employee_params.py(test01_login_success:24)]-员工模块登录结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '3e1a4e99-a73e-44b5-9588-b0b8de174377'}
+2020-03-22 16:26:24,401 INFO [root][employee_params.py(test01_login_success:26)]-取出令牌为Bearer 3e1a4e99-a73e-44b5-9588-b0b8de174377
+2020-03-22 16:26:24,401 INFO [root][employee_params.py(test01_login_success:26)]-取出令牌为Bearer 3e1a4e99-a73e-44b5-9588-b0b8de174377
+2020-03-22 16:26:24,401 INFO [root][employee_params.py(test01_login_success:29)]-员工请求模块为:{'Content-Type': 'application/json', 'Authorization': 'Bearer 3e1a4e99-a73e-44b5-9588-b0b8de174377'}
+2020-03-22 16:26:24,401 INFO [root][employee_params.py(test01_login_success:29)]-员工请求模块为:{'Content-Type': 'application/json', 'Authorization': 'Bearer 3e1a4e99-a73e-44b5-9588-b0b8de174377'}
+2020-03-22 16:26:24,530 INFO [root][employee_params.py(test03_add_emp:34)]-添加员工接口结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1241642369971212288'}}
+2020-03-22 16:26:24,530 INFO [root][employee_params.py(test03_add_emp:34)]-添加员工接口结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1241642369971212288'}}
+2020-03-22 16:26:24,530 INFO [root][employee_params.py(test03_add_emp:39)]-保存的员工ID为:1241642369971212288
+2020-03-22 16:26:24,530 INFO [root][employee_params.py(test03_add_emp:39)]-保存的员工ID为:1241642369971212288
+2020-03-22 16:26:24,627 INFO [root][employee_params.py(test04_query:45)]-查询员工结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1241642369971212288', 'mobile': '12356789431', 'username': '井冈山xxxx001', 'password': 'f515459854b2beea1fb2c5e5b736f4b7', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1205026005332635648', 'timeOfEntry': '2020-02-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-02-03T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '酱油2部', 'roleIds': [], 'staffPhoto': None}}
+2020-03-22 16:26:24,627 INFO [root][employee_params.py(test04_query:45)]-查询员工结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1241642369971212288', 'mobile': '12356789431', 'username': '井冈山xxxx001', 'password': 'f515459854b2beea1fb2c5e5b736f4b7', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1205026005332635648', 'timeOfEntry': '2020-02-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-02-03T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '酱油2部', 'roleIds': [], 'staffPhoto': None}}
+2020-03-22 16:26:24,729 INFO [root][employee_params.py(test05_modify:66)]-修改员工结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1241642369971212288'}}
+2020-03-22 16:26:24,729 INFO [root][employee_params.py(test05_modify:66)]-修改员工结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1241642369971212288'}}
+2020-03-22 16:26:24,827 INFO [root][employee_params.py(test06_delete:72)]-删除员工结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-03-22 16:26:24,827 INFO [root][employee_params.py(test06_delete:72)]-删除员工结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
