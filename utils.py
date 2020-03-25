@@ -94,8 +94,8 @@ def read_delete_emp():
     return result_list
 
 
-# if __name__ == '__main__':
-    # read_login_data()
+if __name__ == '__main__':
+    read_login_data()
     # read_add_emp()
     # read_query_emp()
     # read_modify_emp()
