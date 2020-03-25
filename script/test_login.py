@@ -40,7 +40,7 @@ class TestLogin(unittest.TestCase):
         assert_common_utils(self, response, 200, False, 99999, "抱歉，系统繁忙，请稍后重试！")
     # 用户名为空
     def test05_username_is_null(self):
-        response = self.login_api.login("", "123456")
+        response = self.login_api.login("","1234567")
         logging.info("用户名为空登陆的结果为{}".format(response.json()))
 
         assert_common_utils(self, response, 200, False, 20001, "用户名或密码错误")
